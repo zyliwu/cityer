@@ -49,11 +49,11 @@
         function init() {
             _this.pos.x = Math.random() * width;
             _this.pos.y = height + Math.random() * 100;
-            _this.alpha = 0.2 + Math.random() * 0.5;//气泡透明度
+            _this.alpha = 0.2 + Math.random() * 0.6;//气泡透明度
             _this.alpha_change = 0.0002 + Math.random() * 0.0005;//气泡透明度变化速度
-            _this.scale = 0.2 + Math.random() * 0.1;//气泡大小
+            _this.scale = 0.3 + Math.random() * 0.1;//气泡大小
             _this.scale_change = Math.random() * 0.0003;//气泡大小变化速度
-            _this.speed = 0.1 + Math.random() * 0.9;//气泡上升速度
+            _this.speed = 0.1 + Math.random() * 0.7;//气泡上升速度
         }
         //气泡
         this.draw = function() {
