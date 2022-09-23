@@ -24,7 +24,7 @@
 <meta property="og:description" content="欢迎来到Zy的笔记(作者是小白写的有些乱) 2022-09-22 Java程序的框架 public class 包名{　　public static void main(String[] args){　　　System.out.println(“输出这句话”)　　}}注意: &quot;包名&quot;需要与该文件名称保持一致  输出语句             System.out.printl">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-09-22T10:47:32.087Z">
-<meta property="article:modified_time" content="2022-09-23T09:28:23.627Z">
+<meta property="article:modified_time" content="2022-09-23T11:46:45.772Z">
 <meta property="article:author" content="Zhiyuan">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -219,7 +219,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.1k 字
+          1.5k 字
         
       </span>
     
@@ -230,7 +230,7 @@
         
         
         
-          10 分钟
+          13 分钟
         
       </span>
     
@@ -287,16 +287,59 @@
 <h4 id="转义符"><a href="#转义符" class="headerlink" title="转义符"></a>转义符</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs 复制">\n 换行<br>\t 横向制表(将光标移到下一个水平制表位)<br></code></pre></td></tr></table></figure>
 
 <h4 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h4> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs 复制">char(字符型)         用于存储单个字符 &#x27;A&#x27;、&#x27;男&#x27;<br>int (整型)           用于存储整数<br>double(双精度)       用于储存小数<br>String(字符串)       用于储存一串字符 &quot;ABC&quot;、&quot;你我他&quot;<br>boolean(布尔型)      只有两个值: true和flase<br></code></pre></td></tr></table></figure>
+<h4 id="命名方法"><a href="#命名方法" class="headerlink" title="命名方法"></a>命名方法</h4><blockquote>
+<p>‘驼峰命名法’从【第二个单词】开始，首字母大写<br>‘帕斯卡命名法’从【第一个单词】开始，首字母大写</p>
+<table>
+<thead>
+<tr>
+<th>项目名、类</th>
+<th>包、变量、方法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>帕斯卡命名法</td>
+<td>驼峰命名法</td>
+</tr>
+</tbody></table>
+</blockquote>
 <h4 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h4><blockquote>
 <p>定义：内存中的一块空间,数据存储的基本单元(存数据的容器)<br>三要素：数据类型、变量名、值</p>
 </blockquote>
 <h4 id="变量名-x3D-首字母-其余部分"><a href="#变量名-x3D-首字母-其余部分" class="headerlink" title="变量名&#x3D;首字母+其余部分"></a>变量名&#x3D;首字母+其余部分</h4><div class="note note-success">
             <table><thead><tr><th><strong>首字母</strong></th><th><strong>其余部分</strong></th></tr></thead><tbody><tr><td>字母</td><td>字母</td></tr><tr><td>下划线’_’</td><td>下划线’_’</td></tr><tr><td>‘$’符号</td><td>‘$’符号</td></tr><tr><td></td><td>数字</td></tr></tbody></table><p><strong>两种写法: int a； a&#x3D;1； 或 int a&#x3D;1；</strong><br><strong><code>变量命名规范：通常第一个单词首字母小写,其后单词首字母大写。例如: myScore</code></strong><br><strong><code>注意:不能使用关键字,例如:int、double等</code></strong></p>
           </div>
+
+<h4 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h4><blockquote>
+<p><strong>赋值运算符</strong> ‘<strong>&#x3D;</strong>‘<br>从右往左,右侧可以是个值或表达式,例如:int zy&#x3D;10;<br><strong>算数运算符:</strong></p>
+<table>
+<thead>
+<tr>
+<th>操作符</th>
+<th>描述</th>
+<th>例子</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>+</td>
+<td>加法</td>
+<td></td>
+</tr>
+<tr>
+<td>-</td>
+<td>减法</td>
+<td></td>
+</tr>
+<tr>
+<td>*</td>
+<td>乘法</td>
+<td></td>
+</tr>
+</tbody></table>
+</blockquote>
 <h4 id="if语句"><a href="#if语句" class="headerlink" title="if语句"></a><strong>if语句</strong></h4><div class="note note-primary">
             <p><strong>if(条件){</strong><code>条件结果必须是布尔型(true或false)</code><br>  &#x2F;&#x2F;内容<code>只有一条语句时，不建议省略</code><br><strong>}</strong></p>
           </div>
-<div class="note note-warning">
+<h4 id="if-else语句"><a href="#if-else语句" class="headerlink" title="if else语句"></a><strong>if else语句</strong></h4><div class="note note-primary">
             <p><strong>if(条件){</strong><code>条件结果必须是布尔型(true或false)</code><br>　　&#x2F;&#x2F;内容1<code>只有一条语句时，不建议省略</code><br><strong>}else if{</strong><code>多重结构可以使用多个else if</code><br>　　&#x2F;&#x2F;内容2<br><strong>}else{</strong><br>　　&#x2F;&#x2F;内容3<br><strong>}</strong></p>
           </div>
 
@@ -308,6 +351,9 @@
             <p><strong>import java.util.Scanner;</strong> <code>//导入Scanner的路径</code></p><p>　　 <strong>public class Zy.java{</strong><br>　　　　 <strong>public static void main(String[] args) {</strong><br>　　　　　　 <strong>Scanner input&#x3D;new Scanner(System.in);</strong> <code>创建Scanner对象,从键盘输入数据</code><br>　　　　　　 <strong>int b &#x3D; input.nextInt();</strong> <code>使用Scanner对象input,调用nextInt()方法,在键盘输入一个int型数据</code></p><p>　　　　　　 <strong>input.close();</strong> <code>关闭Scanner对象input</code><br>　　 <strong>}</strong><br><strong>}</strong></p>
           </div>
 
+<h4 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h4><blockquote>
+<p><strong>String equals()</strong><br>String类中equals()方法:判断两个字符串的内容是否相等，该方法返回值为true或false<br>例如:<strong><code>a.equals(b)</code></strong><a target="_blank" rel="noopener" href="https://www.runoob.com/java/java-string-equals.html">equals()方法介绍</a><br><strong>random()方法</strong><br>random()方法返回一个随机数,范围是0.0&lt;&#x3D;Math.random&lt;1.0，该方法返回值为double值<br>语法:static double random()<br>例如:<code>int zy=(int)(Math.random()*5);返回值为0&lt;=zy&lt;5</code><a target="_blank" rel="noopener" href="https://www.runoob.com/java/number-random.html">random()方法介绍</a></p>
+</blockquote>
 
                 
               </div>
